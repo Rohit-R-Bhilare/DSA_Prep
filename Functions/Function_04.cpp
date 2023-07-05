@@ -17,8 +17,10 @@ int nCr(int n , int r){
 }
 int main(){
     int n,r;
-    cout<<"Enter the value of n and r:";
-    cin>>n>>r;
+    cout<<"Enter the value of n:";
+    cin>>n;
+    cout<<"Enter the value of r:";
+    cin>>r;
     cout<<"The answer is:"<<nCr(n,r);
     return 0;
 }
